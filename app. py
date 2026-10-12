@@ -15,8 +15,8 @@ if "logged_in" not in st.session_state:
         st.title("🔐 SMC AI Bot - Mobile Login")
             st.caption("እባክህ ለመግባት የይለፍ ቃልህን አስገባ")
                 
-                    user_input = st.text_input("Username")
-                        pass_input = st.text_input("Password", type="password")
+                     user_input = st.text_input("Username")
+                     pass_input = st.text_input("Password", type="password")
                             
                                 if st.button("LOG IN", type="primary"):
                                         if user_input == USERNAME and pass_input == PASSWORD:
